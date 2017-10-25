@@ -8,8 +8,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48bb4837106a44466aea61fef9b346fe, type: 3}
-  m_Name: References
+  m_Script: {fileID: 11500000, guid: 4b4a24d0e4a28423fb3249b923d7e418, type: 3}
+  m_Name: Source Detective_ManagerPackage
   m_EditorClassIdentifier: 
   actionsManager: {fileID: 11400000, guid: 21f19a78245e18440941c0e65251465c, type: 2}
   sceneManager: {fileID: 11400000, guid: e2683614c3b890d408a2ca220d1bece0, type: 2}
@@ -19,4 +19,3 @@ MonoBehaviour:
   speechManager: {fileID: 11400000, guid: 3abd924be9d99d04a8ad11e1ba7a5081, type: 2}
   cursorManager: {fileID: 11400000, guid: ca22f79fdb71c064390cbe4a8e7c4156, type: 2}
   menuManager: {fileID: 11400000, guid: a77da4012c8d7634db071bb16fd64f66, type: 2}
-  viewingMenuManager: 0
