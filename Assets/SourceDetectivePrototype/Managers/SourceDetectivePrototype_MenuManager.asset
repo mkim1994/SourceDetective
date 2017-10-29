@@ -1932,11 +1932,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   menuSource: 2
-  canvas: {fileID: 22300000, guid: 749f561b58f2a1648abd5c8abb85ae98, type: 2}
-  canvasID: 0
+  canvas: {fileID: 0}
+  canvasID: 7397938
   rectTransform: {fileID: 0}
   rectTransformID: 14169666
-  uiTransitionType: 1
+  uiTransitionType: 0
   uiPositionType: 0
   isEditing: 1
   isLocked: 0
@@ -2124,7 +2124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ID: 0
-  isEditing: 0
+  isEditing: 1
   title: DialogueList
   slotSize: {x: 35, y: 5.2}
   sizeType: 1
@@ -2179,8 +2179,8 @@ MonoBehaviour:
   fixedOption: 0
   optionToShow: 1
   maxSlots: 5
-  markAlreadyChosen: 0
-  alreadyChosenFontColour: {r: 1, g: 1, b: 1, a: 1}
+  markAlreadyChosen: 1
+  alreadyChosenFontColour: {r: 0, g: 0.46206903, b: 1, a: 1}
   alreadyChosenFontHighlightedColour: {r: 1, g: 1, b: 1, a: 1}
   showIndexNumbers: 0
   uiHideStyle: 0
