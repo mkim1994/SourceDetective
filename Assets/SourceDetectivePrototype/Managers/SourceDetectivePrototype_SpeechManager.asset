@@ -22,11 +22,11 @@ MonoBehaviour:
   canSkipWithMouseClicks: 1
   minimumDisplayTime: 1
   screenTimeFactor: 0.1
-  allowSpeechSkipping: 0
-  allowGameplaySpeechSkipping: 0
+  allowSpeechSkipping: 1
+  allowGameplaySpeechSkipping: 1
   skipThresholdTime: 0
-  endScrollBeforeSkip: 0
-  scrollingTextFactorsLength: 0
+  endScrollBeforeSkip: 1
+  scrollingTextFactorsLength: 1
   searchAudioFiles: 1
   autoNameSpeechFiles: 1
   forceSubtitles: 1

@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 114945728945043118}
   - component: {fileID: 61538505499572376}
   - component: {fileID: 114163159389184298}
+  - component: {fileID: 114584516344312824}
   m_Layer: 0
   m_Name: FakeEasy_idle
   m_TagString: Untagged
@@ -127,12 +128,12 @@ MonoBehaviour:
   showInEditor: 1
   interactionSource: 0
   limitToCamera: {fileID: 0}
-  hotspotName: 
+  hotspotName: Suspect
   lineID: -1
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
   centrePoint: {fileID: 0}
-  provideUseInteraction: 0
+  provideUseInteraction: 1
   useButton:
     interaction: {fileID: 0}
     assetFile: {fileID: 0}
@@ -148,7 +149,21 @@ MonoBehaviour:
     faceAfter: 0
     isBlocking: 0
     parameterID: -1
-  useButtons: []
+  useButtons:
+  - interaction: {fileID: 0}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+    isDisabled: 0
+    invID: 0
+    iconID: 0
+    selectItemMode: 0
+    playerAction: 0
+    setProximity: 0
+    proximity: 1
+    faceAfter: 0
+    isBlocking: 0
+    parameterID: -1
   oneClick: 0
   provideLookInteraction: 0
   lookButton:
@@ -210,6 +225,20 @@ MonoBehaviour:
   teleportToStart: 0
   affectY: 0
   nodePause: 0
+--- !u!114 &114584516344312824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1093198337979382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 5397718
+  retainInPrefab: 1
+  autoManual: 0
 --- !u!114 &114945728945043118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -226,7 +255,7 @@ MonoBehaviour:
   customAnimationClass: 
   motionControl: 0
   talkingAnimation: 0
-  speechLabel: 
+  speechLabel: Suspect
   lineID: -1
   displayLineID: -1
   speechColor: {r: 1, g: 1, b: 1, a: 1}
