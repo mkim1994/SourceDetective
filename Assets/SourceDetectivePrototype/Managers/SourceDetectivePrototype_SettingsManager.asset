@@ -48,7 +48,7 @@ MonoBehaviour:
   defaultMouseClicks: 1
   inventoryDragDrop: 0
   dragDropThreshold: 0
-  allowInventoryInteractionsDuringConversations: 0
+  allowInventoryInteractionsDuringConversations: 1
   inventoryDropLook: 0
   inventoryInteractions: 1
   inventoryDisableLeft: 1

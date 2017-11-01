@@ -2336,7 +2336,7 @@ MonoBehaviour:
   rectTransformID: 0
   uiTransitionType: 0
   uiPositionType: 0
-  isEditing: 1
+  isEditing: 0
   isLocked: 0
   id: 14
   title: Research Button
@@ -4033,10 +4033,10 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 21.958344
-    y: 15.206569
-    width: 184.482
-    height: 224.328
+    x: 15.973309
+    y: 11.063753
+    width: 134.199
+    height: 163.213
   relativePosition: {x: 5.4, y: 6.1}
   numSlots: 1
   uiImage: {fileID: 0}
@@ -4400,13 +4400,13 @@ MonoBehaviour:
   rectTransformID: 0
   uiTransitionType: 0
   uiPositionType: 0
-  isEditing: 0
+  isEditing: 1
   isLocked: 0
   id: 13
   title: Dossier
   manualSize: {x: 73.4, y: 79.9}
   positionType: 0
-  manualPosition: {x: 277, y: 156}
+  manualPosition: {x: 201.5, y: 113.5}
   positionSmoothing: 0
   alignment: 4
   toggleKey: 
@@ -4467,10 +4467,10 @@ MonoBehaviour:
   biggestElementSize: {x: 0, y: 0}
   rect:
     serializedVersion: 2
-    x: 73.68199
-    y: 31.355995
-    width: 406.63602
-    height: 249.28801
+    x: 53.599
+    y: 22.8135
+    width: 295.802
+    height: 181.373
 --- !u!114 &114824165209571198
 MonoBehaviour:
   m_ObjectHideFlags: 1
