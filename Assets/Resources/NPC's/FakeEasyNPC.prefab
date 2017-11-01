@@ -258,7 +258,7 @@ MonoBehaviour:
   speechLabel: Suspect
   lineID: -1
   displayLineID: -1
-  speechColor: {r: 1, g: 1, b: 1, a: 1}
+  speechColor: {r: 0.25108132, g: 0.54449046, b: 0.9485294, a: 1}
   portraitIcon:
     texture: {fileID: 0}
     isAnimated: 0
