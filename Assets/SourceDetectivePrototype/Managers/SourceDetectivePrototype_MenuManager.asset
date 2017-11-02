@@ -27,7 +27,6 @@ MonoBehaviour:
   - {fileID: 114880571843716974}
   - {fileID: 114808628117804222}
   - {fileID: 114967393336207686}
-  - {fileID: 114382458794047564}
   globalDepth: 0
   pauseTexture: {fileID: 0}
   scaleTextEffects: 0
@@ -2318,95 +2317,6 @@ MonoBehaviour:
   clickTexture: {fileID: 0}
   allowContinuousClick: 0
   uiSelectableHideStyle: 0
---- !u!114 &114382458794047564
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  menuSource: 2
-  canvas: {fileID: 0}
-  canvasID: 410914
-  rectTransform: {fileID: 0}
-  rectTransformID: 0
-  uiTransitionType: 0
-  uiPositionType: 0
-  isEditing: 0
-  isLocked: 0
-  id: 14
-  title: Research Button
-  manualSize: {x: 0.5, y: 0.8878205}
-  positionType: 0
-  manualPosition: {x: 277, y: 156}
-  positionSmoothing: 0
-  alignment: 4
-  toggleKey: 
-  ignoreMouseClicks: 0
-  pauseWhenEnabled: 0
-  showWhenPaused: 0
-  canClickInCutscene: 1
-  enabledOnStart: 0
-  actionListOnTurnOn: {fileID: 0}
-  actionListOnTurnOff: {fileID: 0}
-  updateWhenFadeOut: 1
-  fitWithinScreen: 0
-  backgroundTexture: {fileID: 0}
-  visibleElements:
-  - {fileID: 114638215662826356}
-  transitionProgress: 0
-  appearType: 4
-  speechMenuType: 4
-  speechMenuLimit: 0
-  limitToCharacters: 
-  forceSubtitles: 0
-  selected_element: {fileID: 0}
-  selected_slot: 0
-  autoSelectFirstVisibleElement: 0
-  firstSelectedElement: 
-  elements:
-  - {fileID: 114638215662826356}
-  spacing: 0.5
-  sizeType: 0
-  autoSizeEveryFrame: 0
-  orientation: 1
-  transitionType: 4
-  panDirection: 0
-  panMovement: 0
-  timeCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panDistance: 0.5
-  fadeSpeed: 0
-  zoomAnchor: 4
-  zoomElements: 0
-  oneMenuPerSpeech: 0
-  biggestElementSize: {x: 0, y: 0}
-  rect:
-    serializedVersion: 2
-    x: 275.615
-    y: 154.615
-    width: 2.77
-    height: 2.77
 --- !u!114 &114385981465021268
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3492,74 +3402,6 @@ MonoBehaviour:
   uiHideStyle: 0
   actionListOnWrongIngredients: {fileID: 0}
   linkUIGraphic: 0
---- !u!114 &114638215662826356
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64747f67d47cb4e04a88bea43b7c1cfd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ID: 0
-  isEditing: 1
-  title: Research Button
-  slotSize: {x: 10, y: 5}
-  sizeType: 0
-  positionType: 0
-  slotSpacing: 0
-  lineID: -1
-  alternativeInputButton: 
-  font: {fileID: 0}
-  fontScaleFactor: 2
-  fontColor: {r: 1, g: 1, b: 1, a: 1}
-  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
-  isVisible: 1
-  isClickable: 1
-  orientation: 1
-  gridWidth: 3
-  backgroundTexture: {fileID: 0}
-  highlightTexture: {fileID: 0}
-  hoverSound: {fileID: 0}
-  clickSound: {fileID: 0}
-  changeCursor: 0
-  cursorID: 0
-  linkedUiID: 1110600
-  relativeRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 0
-    height: 0
-  relativePosition: {x: 0, y: 0}
-  numSlots: 1
-  uiButton: {fileID: 0}
-  uiPointerState: 0
-  label: 
-  hotspotLabel: 
-  hotspotLabelID: -1
-  anchor: 4
-  textEffects: 0
-  outlineSize: 2
-  buttonClickType: 3
-  actionList: {fileID: 0}
-  parameterID: -1
-  parameterValue: 0
-  doFade: 0
-  switchMenuTitle: 
-  inventoryBoxTitle: 
-  shiftInventory: 0
-  shiftAmount: 1
-  onlyShowWhenEffective: 0
-  loopJournal: 0
-  inputAxis: 
-  simulateInput: 0
-  simulateValue: 1
-  clickTexture: {fileID: 0}
-  allowContinuousClick: 0
-  uiSelectableHideStyle: 0
 --- !u!114 &114638623537190406
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4033,10 +3875,10 @@ MonoBehaviour:
   linkedUiID: 0
   relativeRect:
     serializedVersion: 2
-    x: 15.973309
-    y: 11.063753
-    width: 134.199
-    height: 163.213
+    x: 21.879072
+    y: 15.15783
+    width: 183.816
+    height: 223.609
   relativePosition: {x: 5.4, y: 6.1}
   numSlots: 1
   uiImage: {fileID: 0}
@@ -4400,13 +4242,13 @@ MonoBehaviour:
   rectTransformID: 0
   uiTransitionType: 0
   uiPositionType: 0
-  isEditing: 1
+  isEditing: 0
   isLocked: 0
   id: 13
   title: Dossier
   manualSize: {x: 73.4, y: 79.9}
   positionType: 0
-  manualPosition: {x: 201.5, y: 113.5}
+  manualPosition: {x: 276, y: 155.5}
   positionSmoothing: 0
   alignment: 4
   toggleKey: 
@@ -4467,10 +4309,10 @@ MonoBehaviour:
   biggestElementSize: {x: 0, y: 0}
   rect:
     serializedVersion: 2
-    x: 53.599
-    y: 22.8135
-    width: 295.802
-    height: 181.373
+    x: 73.415985
+    y: 31.255493
+    width: 405.16803
+    height: 248.48901
 --- !u!114 &114824165209571198
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5254,7 +5096,7 @@ MonoBehaviour:
   rectTransformID: 5430254
   uiTransitionType: 1
   uiPositionType: 0
-  isEditing: 0
+  isEditing: 1
   isLocked: 1
   id: 3
   title: NPCSubtitles
