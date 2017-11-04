@@ -1,13 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ResearchManager : MonoBehaviour {
 
     public GameObject researchButton;
+    public GameObject dossier;
+    DossierFolder dosScript;
 	// Use this for initialization
 	void Start () {
-		
+
+        dosScript = dossier.GetComponent<DossierFolder>();
+
 	}
 	
 	// Update is called once per frame
@@ -20,8 +25,28 @@ public class ResearchManager : MonoBehaviour {
         researchButton.SetActive(true);
     }
 
-    public void AddResearch(int i)
+    void SetResearchType(int research)
     {
-
+        for (int i = 0; i < dosScript.researchNotes.Count; i++)
+        {
+            if (dosScript.researchNotes[i].researchType == -1)
+            {
+                dosScript.researchNotes[i].researchType = research;
+                break;
+            }
+        }
     }
+
+    public void AddRudeResearch()
+    {
+        int researchType = 0;
+        SetResearchType(researchType);
+    }
+
+    public void AddNotRudeResearch()
+    {
+        int researchType = 1;
+        SetResearchType(researchType);
+    }
+
 }
