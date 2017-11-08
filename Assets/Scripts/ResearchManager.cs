@@ -37,15 +37,21 @@ public class ResearchManager : MonoBehaviour {
         }
     }
 
-    public void AddRudeResearch()
+    public void AddHostSiteResearch()
     {
         int researchType = 0;
         SetResearchType(researchType);
     }
 
-    public void AddNotRudeResearch()
+    public void AddSiteTrafficResearch()
     {
         int researchType = 1;
+        SetResearchType(researchType);
+    }
+
+    public void AddBlogCategoriesResearch()
+    {
+        int researchType = 2;
         SetResearchType(researchType);
     }
 
