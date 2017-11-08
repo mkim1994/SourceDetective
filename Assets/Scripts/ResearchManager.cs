@@ -55,4 +55,59 @@ public class ResearchManager : MonoBehaviour {
         SetResearchType(researchType);
     }
 
+    public void AddDunelFakeNews()
+    {
+        int researchType = 3;
+        SetResearchType(researchType);
+    }
+
+    public void AddNersheyChoco()
+    {
+        int researchType = 4;
+        SetResearchType(researchType);
+    }
+
+    public void AddPineapplePizza()
+    {
+        int researchType = 5;
+        SetResearchType(researchType);
+    }
+
+    public void AddTastyChocolate()
+    {
+        int researchType = 6;
+        SetResearchType(researchType);
+    }
+
+    public void AddUCHappyStudents()
+    {
+        int researchType = 7;
+        SetResearchType(researchType);
+    }
+
+    public void AddUCNewTech()
+    {
+        int researchType = 8;
+        SetResearchType(researchType);
+    }
+
+    public void AddUCNoRumors()
+    {
+        int researchType = 9;
+        SetResearchType(researchType);
+    }
+
+    public void AddWaterMark()
+    {
+        int researchType = 10;
+        SetResearchType(researchType);
+    }
+
+    public void AddXylophone()
+    {
+        int researchType = 11;
+        SetResearchType(researchType);
+
+    }
+
 }
