@@ -3507,13 +3507,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   menuSource: 2
   canvas: {fileID: 0}
-  canvasID: 893396
+  canvasID: 1765302
   rectTransform: {fileID: 0}
   rectTransformID: 5430254
   uiTransitionType: 1
   uiPositionType: 0
   isEditing: 1
-  isLocked: 1
+  isLocked: 0
   id: 16
   title: Panel
   manualSize: {x: 0.5, y: 0.8878205}
