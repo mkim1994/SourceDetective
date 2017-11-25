@@ -28,6 +28,8 @@ MonoBehaviour:
   - {fileID: 114808628117804222}
   - {fileID: 114967393336207686}
   - {fileID: 114466515942320782}
+  - {fileID: 114628920837525198}
+  - {fileID: 114597341766953448}
   globalDepth: 0
   pauseTexture: {fileID: 0}
   scaleTextEffects: 0
@@ -1926,6 +1928,62 @@ MonoBehaviour:
   clickTexture: {fileID: 0}
   allowContinuousClick: 0
   uiSelectableHideStyle: 0
+--- !u!114 &114319678398340886
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ae5c94351944600a4b0aec144476b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 0
+  isEditing: 0
+  title: SubsSpeakerLabel
+  slotSize: {x: 50, y: 7}
+  sizeType: 1
+  positionType: 0
+  slotSpacing: 0
+  lineID: -1
+  alternativeInputButton: 
+  font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
+  fontScaleFactor: 2
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  isVisible: 1
+  isClickable: 0
+  orientation: 0
+  gridWidth: 3
+  backgroundTexture: {fileID: 2800000, guid: 5f4f3dd6223164fe49aea7eb6c0bc529, type: 3}
+  highlightTexture: {fileID: 0}
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  changeCursor: 0
+  cursorID: 0
+  linkedUiID: 893390
+  relativeRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 277
+    height: 21.84
+  relativePosition: {x: 0, y: 0}
+  numSlots: 1
+  uiText: {fileID: 0}
+  label: Brain
+  anchor: 4
+  textEffects: 0
+  outlineSize: 2
+  labelType: 3
+  variableID: 0
+  useCharacterColour: 0
+  autoAdjustHeight: 1
+  updateIfEmpty: 0
+  itemPropertyID: 0
+  inventoryPropertyType: 0
+  itemSlotNumber: 0
 --- !u!114 &114321709420050596
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3031,7 +3089,7 @@ MonoBehaviour:
   rectTransformID: 14169666
   uiTransitionType: 0
   uiPositionType: 0
-  isEditing: 1
+  isEditing: 0
   isLocked: 0
   id: 14
   title: ResearchOptions
@@ -3436,6 +3494,95 @@ MonoBehaviour:
   clickTexture: {fileID: 0}
   allowContinuousClick: 0
   uiSelectableHideStyle: 0
+--- !u!114 &114597341766953448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuSource: 2
+  canvas: {fileID: 0}
+  canvasID: 893396
+  rectTransform: {fileID: 0}
+  rectTransformID: 5430254
+  uiTransitionType: 1
+  uiPositionType: 0
+  isEditing: 1
+  isLocked: 1
+  id: 16
+  title: Panel
+  manualSize: {x: 0.5, y: 0.8878205}
+  positionType: 0
+  manualPosition: {x: 277, y: 156}
+  positionSmoothing: 0
+  alignment: 4
+  toggleKey: 
+  ignoreMouseClicks: 0
+  pauseWhenEnabled: 0
+  showWhenPaused: 0
+  canClickInCutscene: 0
+  enabledOnStart: 0
+  actionListOnTurnOn: {fileID: 0}
+  actionListOnTurnOff: {fileID: 0}
+  updateWhenFadeOut: 1
+  fitWithinScreen: 1
+  backgroundTexture: {fileID: 0}
+  visibleElements:
+  - {fileID: 0}
+  - {fileID: 0}
+  transitionProgress: 0
+  appearType: 6
+  speechMenuType: 0
+  speechMenuLimit: 0
+  limitToCharacters: 
+  forceSubtitles: 0
+  selected_element: {fileID: 0}
+  selected_slot: 0
+  autoSelectFirstVisibleElement: 0
+  firstSelectedElement: 
+  elements: []
+  spacing: 0.5
+  sizeType: 0
+  autoSizeEveryFrame: 0
+  orientation: 1
+  transitionType: 4
+  panDirection: 0
+  panMovement: 0
+  timeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panDistance: 0.5
+  fadeSpeed: 0.2
+  zoomAnchor: 4
+  zoomElements: 0
+  oneMenuPerSpeech: 0
+  biggestElementSize: {x: 0, y: 0}
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &114604618172121808
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3615,6 +3762,97 @@ MonoBehaviour:
   uiHideStyle: 0
   actionListOnWrongIngredients: {fileID: 0}
   linkUIGraphic: 0
+--- !u!114 &114628920837525198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f455f0e4a864975bf60bc153fbe20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  menuSource: 2
+  canvas: {fileID: 0}
+  canvasID: 893396
+  rectTransform: {fileID: 0}
+  rectTransformID: 5430254
+  uiTransitionType: 1
+  uiPositionType: 0
+  isEditing: 0
+  isLocked: 1
+  id: 15
+  title: Narration
+  manualSize: {x: 0.5, y: 0.8878205}
+  positionType: 0
+  manualPosition: {x: 277, y: 156}
+  positionSmoothing: 0
+  alignment: 4
+  toggleKey: 
+  ignoreMouseClicks: 0
+  pauseWhenEnabled: 0
+  showWhenPaused: 0
+  canClickInCutscene: 0
+  enabledOnStart: 0
+  actionListOnTurnOn: {fileID: 0}
+  actionListOnTurnOff: {fileID: 0}
+  updateWhenFadeOut: 1
+  fitWithinScreen: 1
+  backgroundTexture: {fileID: 0}
+  visibleElements:
+  - {fileID: 114319678398340886}
+  - {fileID: 114694210785183392}
+  transitionProgress: 0
+  appearType: 6
+  speechMenuType: 0
+  speechMenuLimit: 0
+  limitToCharacters: 
+  forceSubtitles: 0
+  selected_element: {fileID: 0}
+  selected_slot: 0
+  autoSelectFirstVisibleElement: 0
+  firstSelectedElement: 
+  elements:
+  - {fileID: 114319678398340886}
+  - {fileID: 114694210785183392}
+  spacing: 0.5
+  sizeType: 0
+  autoSizeEveryFrame: 0
+  orientation: 1
+  transitionType: 4
+  panDirection: 0
+  panMovement: 0
+  timeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panDistance: 0.5
+  fadeSpeed: 0.2
+  zoomAnchor: 4
+  zoomElements: 0
+  oneMenuPerSpeech: 0
+  biggestElementSize: {x: 0, y: 0}
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
 --- !u!114 &114638623537190406
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3939,6 +4177,62 @@ MonoBehaviour:
   numberOfSteps: 0
   actionListOnChange: {fileID: 0}
   uiSelectableHideStyle: 0
+--- !u!114 &114694210785183392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ae5c94351944600a4b0aec144476b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 1
+  isEditing: 1
+  title: SubsLineLabel
+  slotSize: {x: 50, y: 4.8}
+  sizeType: 1
+  positionType: 0
+  slotSpacing: 0
+  lineID: -1
+  alternativeInputButton: 
+  font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
+  fontScaleFactor: 1.5
+  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  isVisible: 1
+  isClickable: 0
+  orientation: 0
+  gridWidth: 3
+  backgroundTexture: {fileID: 2800000, guid: 5f4f3dd6223164fe49aea7eb6c0bc529, type: 3}
+  highlightTexture: {fileID: 0}
+  hoverSound: {fileID: 0}
+  clickSound: {fileID: 0}
+  changeCursor: 0
+  cursorID: 0
+  linkedUiID: 893384
+  relativeRect:
+    serializedVersion: 2
+    x: 0
+    y: 21.84
+    width: 277
+    height: 14.976
+  relativePosition: {x: 0, y: 0}
+  numSlots: 1
+  uiText: {fileID: 0}
+  label: Hi!
+  anchor: 0
+  textEffects: 0
+  outlineSize: 2
+  labelType: 2
+  variableID: 0
+  useCharacterColour: 0
+  autoAdjustHeight: 1
+  updateIfEmpty: 0
+  itemPropertyID: 0
+  inventoryPropertyType: 0
+  itemSlotNumber: 0
 --- !u!114 &114719792259039354
 MonoBehaviour:
   m_ObjectHideFlags: 1

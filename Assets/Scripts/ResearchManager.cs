@@ -32,6 +32,8 @@ public class ResearchManager : MonoBehaviour {
             if (dosScript.researchNotes[i].researchType == -1)
             {
                 dosScript.researchNotes[i].researchType = research;
+                dosScript.notificationSymbol.SetActive(true);
+                Debug.Log("adding research!");
                 break;
             }
         }

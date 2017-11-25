@@ -7,6 +7,7 @@ public class DossierFolder : MonoBehaviour {
 
     public GameObject Dossier;
     public bool isOpen;
+    public GameObject notificationSymbol;
     public List<ResearchNotes> researchNotes = new List<ResearchNotes>(5);
 
 	// Use this for initialization
@@ -35,6 +36,7 @@ public class DossierFolder : MonoBehaviour {
     {
         if (!isOpen)
         {
+            notificationSymbol.SetActive(false);
             isOpen = true;
             Dossier.SetActive(true);
         }

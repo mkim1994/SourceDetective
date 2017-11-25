@@ -34,12 +34,10 @@ public class ResearchNotes : MonoBehaviour {
     public void OnMouseOver()
     {
         content.enabled = true;
-        Debug.Log("mouse over activated!");
     }
 
     public void OnMouseExit()
     {
-        Debug.Log("mouse over gone!");
         content.enabled = false;
     }
 }
