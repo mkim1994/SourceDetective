@@ -8,11 +8,15 @@ public class ResearchManager : MonoBehaviour {
     public GameObject researchButton;
     public GameObject dossier;
     DossierFolder dosScript;
+
+    public GameObject variableHandlerPrefab;
 	// Use this for initialization
 	void Start () {
 
         dosScript = dossier.GetComponent<DossierFolder>();
-
+        if(GameObject.Find("VariableHandler(Clone)") == null){
+            GameObject.Instantiate(variableHandlerPrefab, variableHandlerPrefab.transform.position, Quaternion.identity);
+        }
 	}
 	
 	// Update is called once per frame
