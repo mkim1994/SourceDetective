@@ -29,7 +29,7 @@ public class DossierFolder : MonoBehaviour {
             }
         }
 
-	}
+    }
 
     public void OpenAndCloseDossier()
     {
