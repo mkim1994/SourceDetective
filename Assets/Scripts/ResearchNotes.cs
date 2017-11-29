@@ -9,7 +9,8 @@ public class ResearchNotes : MonoBehaviour {
     public Image[] contentArray;
     public Image content;
     private int prevResearchType;
-  
+
+   // public Sprite content;
 
 	// Use this for initialization
 	void Start () {
@@ -22,13 +23,19 @@ public class ResearchNotes : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if(researchType >= 0 && prevResearchType != researchType)
+
+
+
+
+    }
+
+    public void OutsideUpdate(){
+        if (researchType >= 0 && prevResearchType != researchType)
         {
             prevResearchType = researchType;
             Debug.Log(researchType);
             content = contentArray[researchType];
         }
-
     }
 
     public void OnMouseOver()
