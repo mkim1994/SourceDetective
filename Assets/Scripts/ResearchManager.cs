@@ -112,4 +112,16 @@ public class ResearchManager : MonoBehaviour {
 
     }
 
+    public void AddNermHobbie()
+    {
+        int researchType = 12;
+        SetResearchType(researchType);
+    }
+
+    public void AddUpToDate()
+    {
+        int researchType = 13;
+        SetResearchType(researchType);
+    }
+
 }
