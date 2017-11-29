@@ -12,7 +12,6 @@ public class DossierFolder : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        isOpen = false;
         foreach(ResearchNotes note in researchNotes)
         {
             note.gameObject.SetActive(false);

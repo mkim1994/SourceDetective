@@ -6,5 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SourceDetective.unity
-    guid: d34fbdde1988c5c4384362550fb2577c
+    path: Assets/Scenes/OpeningScene.unity
+    guid: 60150b9650557524598778d5930f5366
+  - enabled: 1
+    path: Assets/Scenes/Case1.unity
+    guid: de3f5bb36bac93d4c9c186507c40e1e9
+  - enabled: 1
+    path: Assets/Scenes/Case2.unity
+    guid: f69231aec7bb99e4088ba7532a418353
