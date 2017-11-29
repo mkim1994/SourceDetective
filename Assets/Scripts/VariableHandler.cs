@@ -21,9 +21,9 @@ public class VariableHandler : MonoBehaviour {
 		
 	}
 
-    public void EvaluateResearch(){
-        dosScript = GameObject.Find("ResearchManager").GetComponent<DossierFolder>();
+    public void EvaluateResearch(List<ResearchNotes> r){
+        researchNotes = new List<ResearchNotes>();
         //dosScript.researchNotes;
-        researchNotes = dosScript.researchNotes;
+        researchNotes = r;
     }
 }

@@ -24,6 +24,11 @@ public class ResearchManager : MonoBehaviour {
 		
 	}
 
+    public void EndScene()
+    {
+        GameObject.Find("VariableHandler(Clone)").GetComponent<VariableHandler>().EvaluateResearch(dosScript.researchNotes);
+    }
+
     public void ActivateResearchButton()
     {
         researchButton.SetActive(true);
