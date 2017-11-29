@@ -41,7 +41,7 @@ MonoBehaviour:
   showHoverInteractionInHotspotLabel: 0
   whenReselectHotspot: 0
   lockCursorOnStart: 0
-  hideLockedCursor: 1
+  hideLockedCursor: 0
   disableFreeAimWhenDragging: 0
   runConversationsWithKeys: 0
   clickUpInteractions: 0
