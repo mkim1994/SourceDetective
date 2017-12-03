@@ -39,7 +39,7 @@ public class VariableHandler : MonoBehaviour {
             Text final = evaluation.transform.GetChild(6).GetComponent<Text>();
 
             int count = 0;
-            for (int i = 0; i < researchNotes.Count; ++i){
+            for (int i = 0; i < 3; ++i){
                 notes[i].sprite = researchNotes[i].content.sprite;
                /* switch(i){
                     case 0:
