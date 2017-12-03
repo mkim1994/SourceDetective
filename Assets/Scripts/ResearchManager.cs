@@ -50,73 +50,73 @@ public class ResearchManager : MonoBehaviour {
         }
     }
 
-    public void AddHostSiteResearch()
+    public void AddAnyoneCanRegister()
     {
         int researchType = 0;
         SetResearchType(researchType);
     }
 
-    public void AddSiteTrafficResearch()
+    public void AddNermWorkInfo()
     {
         int researchType = 1;
         SetResearchType(researchType);
     }
 
-    public void AddBlogCategoriesResearch()
+    public void AddOtherOpenDomains()
     {
         int researchType = 2;
         SetResearchType(researchType);
     }
 
-    public void AddDunelFakeNews()
+    public void AddWhatAreCOMS()
     {
         int researchType = 3;
         SetResearchType(researchType);
     }
 
-    public void AddNersheyChoco()
+    public void AddNermDegreeInfo()
     {
         int researchType = 4;
         SetResearchType(researchType);
     }
 
-    public void AddPineapplePizza()
+    public void AddWhatIsURL()
     {
         int researchType = 5;
         SetResearchType(researchType);
     }
 
-    public void AddTastyChocolate()
+    public void AddMelvinWorkInfo()
     {
         int researchType = 6;
         SetResearchType(researchType);
     }
 
-    public void AddUCHappyStudents()
+    public void AddUniversityURLInfo()
     {
         int researchType = 7;
         SetResearchType(researchType);
     }
 
-    public void AddUCNewTech()
+    public void AddMelvinExperience()
     {
         int researchType = 8;
         SetResearchType(researchType);
     }
 
-    public void AddUCNoRumors()
+    public void AddRobotBlogInfo()
     {
         int researchType = 9;
         SetResearchType(researchType);
     }
 
-    public void AddWaterMark()
+    public void AddMelvinDegreeInfo()
     {
         int researchType = 10;
         SetResearchType(researchType);
     }
 
-    public void AddXylophone()
+    public void AddRootOfURLInfo()
     {
         int researchType = 11;
         SetResearchType(researchType);
