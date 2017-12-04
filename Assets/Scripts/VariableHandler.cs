@@ -22,21 +22,19 @@ public class VariableHandler : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if(endSceneRan){
+            Debug.Log("wht");
             GameObject prefab = Resources.Load("Prefabs/ResearchEvaluation") as GameObject;
             GameObject evaluation = GameObject.Instantiate(prefab, prefab.transform.position, Quaternion.identity);
-            Image[] notes = new Image[5];
-            Text[] texts = new Text[5];
+            Image[] notes = new Image[3];
+            Text[] texts = new Text[3];
             notes[0] = evaluation.transform.GetChild(1).GetComponent<Image>();
             notes[1] = evaluation.transform.GetChild(2).GetComponent<Image>();
             notes[2] = evaluation.transform.GetChild(3).GetComponent<Image>();
-            notes[3] = evaluation.transform.GetChild(4).GetComponent<Image>();
-            notes[4] = evaluation.transform.GetChild(5).GetComponent<Image>();
+
             texts[0] = notes[0].transform.GetChild(0).GetComponent<Text>();
             texts[1] = notes[1].transform.GetChild(0).GetComponent<Text>();
             texts[2] = notes[2].transform.GetChild(0).GetComponent<Text>();
-            texts[3] = notes[3].transform.GetChild(0).GetComponent<Text>();
-            texts[4] = notes[4].transform.GetChild(0).GetComponent<Text>();
-            Text final = evaluation.transform.GetChild(6).GetComponent<Text>();
+            Text final = evaluation.transform.GetChild(4).GetComponent<Text>();
 
             int count = 0;
             for (int i = 0; i < 3; ++i){
