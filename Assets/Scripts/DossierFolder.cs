@@ -46,7 +46,7 @@ public class DossierFolder : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             clickCount += 1;
-            Debug.Log("ClickCount = " + clickCount);
+            //Debug.Log("ClickCount = " + clickCount);
         }
 
     }
