@@ -151,4 +151,11 @@ public class ResearchManager : MonoBehaviour {
         researchCount += 1;
     }
 
+    public void AddVerifiedUni()
+    {
+        int researchType = 14;
+        SetResearchType(researchType);
+        researchCount += 1;
+    }
+
 }

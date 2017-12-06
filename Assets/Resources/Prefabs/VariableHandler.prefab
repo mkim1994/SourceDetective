@@ -51,3 +51,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0230d001da9df4a6d9b8cacddf0e4a0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  researchNotes: []
+  correctSprites:
+  - {fileID: 21300000, guid: e4f0e4b3072fd9d4997254c95e351636, type: 3}
+  - {fileID: 21300000, guid: d46e88c1c78eb624782db96dd6076220, type: 3}
+  - {fileID: 21300000, guid: 211bb45cc1d6e924685a5cda14dd8ad4, type: 3}
+  - {fileID: 21300000, guid: 00803f50372eb4a419353258f08eda06, type: 3}
+  - {fileID: 21300000, guid: ad4179a48f81c204691893c4afd5e16a, type: 3}
+  - {fileID: 21300000, guid: 41a282bc8bd39054e9c9a3729a808265, type: 3}

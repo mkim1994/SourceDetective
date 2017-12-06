@@ -11,18 +11,26 @@ public class VariableHandler : MonoBehaviour {
 
     private bool endSceneRan = false;
 
-	// Use this for initialization
+    public Sprite[] correctSprites = new Sprite[6];
+
+    // Use this for initialization
     void Awake(){
         DontDestroyOnLoad(transform.gameObject);
+        //correctSprites[0] = Resources.Load("Art/Research/" + "Case1Correct1.png") as Sprite;
+        //correctSprites[1] = Resources.Load("Art/Research/" + "Case1Correct2.png") as Sprite;
+        //correctSprites[2] = Resources.Load("Art/Research/" + "Case1Correct3.png") as Sprite;
+        //correctSprites[3] = Resources.Load("Art/Research/" + "Case2Correct1.png") as Sprite;
+        //correctSprites[4] = Resources.Load("Art/Research/" + "Case2Correct2.png") as Sprite;
+        //correctSprites[5] = Resources.Load("Art/Research/" + "Case2Correct3.png") as Sprite;
     }
 	void Start () {
-		
-	}
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
         if(endSceneRan){
-            Debug.Log("wht");
+            int correctCount = 0;
             GameObject prefab = Resources.Load("Prefabs/ResearchEvaluation") as GameObject;
             GameObject evaluation = GameObject.Instantiate(prefab, prefab.transform.position, Quaternion.identity);
             Image[] notes = new Image[3];
@@ -36,30 +44,30 @@ public class VariableHandler : MonoBehaviour {
             texts[2] = notes[2].transform.GetChild(0).GetComponent<Text>();
             Text final = evaluation.transform.GetChild(4).GetComponent<Text>();
 
-            int count = 0;
             for (int i = 0; i < 3; ++i){
                 notes[i].sprite = researchNotes[i].content.sprite;
-               /* switch(i){
-                    case 0:
-                        note1.sprite = researchNotes[0].content.sprite;
-                        break;
-                    case 1:
-                        note2.sprite = researchNotes[1].content.sprite;
-                        break;
-                    case 2:
-                        note3.sprite = researchNotes[2].content.sprite;
-                        break;
-                    case 3:
-                        note4.sprite = researchNotes[3].content.sprite;
-                        break;
-                    case 4:
-                        note5.sprite = researchNotes[4].content.sprite;
-                        break;
-                }*/
+                bool foundMatch = false;
+                for (int researchSprites = 0; researchSprites < correctSprites.Length; researchSprites++)
+                {
+                    if (!foundMatch)
+                    {
+                        if (notes[i].sprite == correctSprites[researchSprites])
+                        {
+                            Debug.Log("right");
+                            texts[i].text = "This is very interesting indeed! Good find!";
+                            foundMatch = true;
+                            correctCount += 1;
+                        }
+                        else
+                        {
+                            Debug.Log("wrong");
+                            texts[i].text = "This doesn't seem like it's applicable to the investigation.";
+                        }
+                    }
+                }
             }
-
-
-
+            if (correctCount < 3) final.text = "I'm not sure you were very thorough. Maybe I shouldn't have called you.";
+            else final.text = "Amazing work detective! I'll make sure everyone knows how thorough you are.";
             endSceneRan = false;
         }
 	}
