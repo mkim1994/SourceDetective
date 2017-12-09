@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using AC;
+using UnityEngine.SceneManagement;
 
 public class DossierFolder : MonoBehaviour
 {
