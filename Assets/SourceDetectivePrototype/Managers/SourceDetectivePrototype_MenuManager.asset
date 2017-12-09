@@ -609,8 +609,9 @@ MonoBehaviour:
   optionToShow: 1
   maxSlots: 5
   markAlreadyChosen: 1
-  alreadyChosenFontColour: {r: 0, g: 0.46206903, b: 1, a: 1}
-  alreadyChosenFontHighlightedColour: {r: 1, g: 1, b: 1, a: 1}
+  alreadyChosenFontColour: {r: 0.29411766, g: 0.12156863, b: 0.12156863, a: 1}
+  alreadyChosenFontHighlightedColour: {r: 0.29411766, g: 0.12156863, b: 0.12156863,
+    a: 1}
   showIndexNumbers: 0
   uiHideStyle: 0
   linkUIGraphic: 0
@@ -1098,8 +1099,9 @@ MonoBehaviour:
   optionToShow: 1
   maxSlots: 5
   markAlreadyChosen: 1
-  alreadyChosenFontColour: {r: 0, g: 0.46206903, b: 1, a: 1}
-  alreadyChosenFontHighlightedColour: {r: 1, g: 1, b: 1, a: 1}
+  alreadyChosenFontColour: {r: 0.29411766, g: 0.12156863, b: 0.12156863, a: 1}
+  alreadyChosenFontHighlightedColour: {r: 0.29411766, g: 0.12156863, b: 0.12156863,
+    a: 1}
   showIndexNumbers: 0
   uiHideStyle: 0
   linkUIGraphic: 0
@@ -1598,9 +1600,10 @@ MonoBehaviour:
   fixedOption: 0
   optionToShow: 1
   maxSlots: 5
-  markAlreadyChosen: 1
-  alreadyChosenFontColour: {r: 0, g: 0.46206903, b: 1, a: 1}
-  alreadyChosenFontHighlightedColour: {r: 1, g: 1, b: 1, a: 1}
+  markAlreadyChosen: 0
+  alreadyChosenFontColour: {r: 0.29411766, g: 0.12156863, b: 0.12156863, a: 1}
+  alreadyChosenFontHighlightedColour: {r: 0.29411766, g: 0.12156863, b: 0.12156863,
+    a: 1}
   showIndexNumbers: 0
   uiHideStyle: 0
   linkUIGraphic: 0
@@ -2874,8 +2877,9 @@ MonoBehaviour:
   optionToShow: 1
   maxSlots: 5
   markAlreadyChosen: 1
-  alreadyChosenFontColour: {r: 0, g: 0.46206903, b: 1, a: 1}
-  alreadyChosenFontHighlightedColour: {r: 1, g: 1, b: 1, a: 1}
+  alreadyChosenFontColour: {r: 0.29411763, g: 0.123269886, b: 0.123269886, a: 1}
+  alreadyChosenFontHighlightedColour: {r: 0.29411766, g: 0.12156863, b: 0.12156863,
+    a: 1}
   showIndexNumbers: 0
   uiHideStyle: 0
   linkUIGraphic: 0
@@ -3029,7 +3033,7 @@ MonoBehaviour:
   rectTransformID: 14169666
   uiTransitionType: 0
   uiPositionType: 0
-  isEditing: 0
+  isEditing: 1
   isLocked: 0
   id: 18
   title: WhatIsCom
@@ -3922,7 +3926,7 @@ MonoBehaviour:
   rectTransformID: 14169666
   uiTransitionType: 0
   uiPositionType: 0
-  isEditing: 1
+  isEditing: 0
   isLocked: 0
   id: 26
   title: Experience
@@ -4272,9 +4276,10 @@ MonoBehaviour:
   fixedOption: 0
   optionToShow: 1
   maxSlots: 5
-  markAlreadyChosen: 1
-  alreadyChosenFontColour: {r: 0, g: 0.46206903, b: 1, a: 1}
-  alreadyChosenFontHighlightedColour: {r: 1, g: 1, b: 1, a: 1}
+  markAlreadyChosen: 0
+  alreadyChosenFontColour: {r: 0.29411766, g: 0.12156863, b: 0.12156863, a: 1}
+  alreadyChosenFontHighlightedColour: {r: 0.29411766, g: 0.12156863, b: 0.12156863,
+    a: 1}
   showIndexNumbers: 0
   uiHideStyle: 0
   linkUIGraphic: 0
@@ -6104,9 +6109,10 @@ MonoBehaviour:
   fixedOption: 0
   optionToShow: 1
   maxSlots: 5
-  markAlreadyChosen: 1
-  alreadyChosenFontColour: {r: 0, g: 0.46206903, b: 1, a: 1}
-  alreadyChosenFontHighlightedColour: {r: 1, g: 1, b: 1, a: 1}
+  markAlreadyChosen: 0
+  alreadyChosenFontColour: {r: 0.29411766, g: 0.12156863, b: 0.12156863, a: 1}
+  alreadyChosenFontHighlightedColour: {r: 0.29411766, g: 0.12156863, b: 0.12156863,
+    a: 1}
   showIndexNumbers: 0
   uiHideStyle: 0
   linkUIGraphic: 0
@@ -6836,8 +6842,8 @@ MonoBehaviour:
   fixedOption: 0
   optionToShow: 1
   maxSlots: 2
-  markAlreadyChosen: 0
-  alreadyChosenFontColour: {r: 1, g: 1, b: 1, a: 1}
+  markAlreadyChosen: 1
+  alreadyChosenFontColour: {r: 1, g: 0, b: 0, a: 1}
   alreadyChosenFontHighlightedColour: {r: 1, g: 1, b: 1, a: 1}
   showIndexNumbers: 0
   uiHideStyle: 0
