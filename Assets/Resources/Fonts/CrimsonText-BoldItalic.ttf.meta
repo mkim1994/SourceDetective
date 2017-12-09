@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: f9eecca3cd3f87e478884575e39bb3c1
+timeCreated: 1512781970
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Crimson Text
+  fontNames:
+  - Crimson Text
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: b5b18870805ace6499da8300660895b7, type: 3}
+  - {fileID: 12800000, guid: ce7bfc0463c3f8141ac6d839dc99a773, type: 3}
+  - {fileID: 12800000, guid: e336d514a3c1054409090d90aaa0a1e9, type: 3}
+  - {fileID: 12800000, guid: 315e15a7896d59b4e92b17f00ca4f7bb, type: 3}
+  - {fileID: 12800000, guid: c81ab3dfd59b7ba43ba83904202b203e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

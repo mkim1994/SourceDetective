@@ -36,7 +36,6 @@ public class DossierFolder : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         for (int i = 0; i < researchNotes.Count; i++)
         {
             if (researchNotes[i].researchType != -1)
