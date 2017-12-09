@@ -10,6 +10,7 @@ public class VariableHandler : MonoBehaviour {
     public List<ResearchNotes> researchNotes;
 
     private bool endSceneRan = false;
+    public bool runEvaluations;
 
     public Sprite[] correctSprites = new Sprite[6];
 
@@ -22,6 +23,7 @@ public class VariableHandler : MonoBehaviour {
         //correctSprites[3] = Resources.Load("Art/Research/" + "Case2Correct1.png") as Sprite;
         //correctSprites[4] = Resources.Load("Art/Research/" + "Case2Correct2.png") as Sprite;
         //correctSprites[5] = Resources.Load("Art/Research/" + "Case2Correct3.png") as Sprite;
+        runEvaluations = false;
     }
 	void Start () {
 
@@ -29,7 +31,8 @@ public class VariableHandler : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if(endSceneRan){
+        if(endSceneRan && runEvaluations){
+            runEvaluations = false;
             int correctCount = 0;
             GameObject prefab = Resources.Load("Prefabs/ResearchEvaluation") as GameObject;
             GameObject evaluation = GameObject.Instantiate(prefab, prefab.transform.position, Quaternion.identity);
@@ -80,5 +83,10 @@ public class VariableHandler : MonoBehaviour {
         Debug.Log(researchNotes[0].content.sprite);
         Debug.Log(researchNotes[1].content.sprite);
         Debug.Log(researchNotes[2].content.sprite);
+    }
+
+    public void RunEvalutation()
+    {
+        runEvaluations = true;
     }
 }
