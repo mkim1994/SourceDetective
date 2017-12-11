@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using AC;
+using UnityEngine.SceneManagement;
 
 public class ResearchManager : MonoBehaviour {
 
@@ -9,6 +11,7 @@ public class ResearchManager : MonoBehaviour {
     public GameObject dossier;
     DossierFolder dosScript;
     public float researchCount = 0;
+    public GameObject researchEvaluation;
 
     public GameObject variableHandlerPrefab;
 	// Use this for initialization
@@ -29,6 +32,19 @@ public class ResearchManager : MonoBehaviour {
     {
         Debug.Log("end scene"); 
         GameObject.Find("VariableHandler(Clone)").GetComponent<VariableHandler>().EvaluateResearch(dosScript.researchNotes);
+    }
+
+    public void ActuallyEndScene()
+    {
+        GameObject.Find("VariableHandler(Clone)").GetComponent<VariableHandler>().RunEvalutation();
+    }
+
+    public void Restart()
+    {
+        AC.KickStarter.variablesManager.GetVariable(0).SetValue(0);
+        GameObject.Find("VariableHandler(Clone)").GetComponent<VariableHandler>().DestroyThis();
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Titlescreen");
+
     }
 
     public void ActivateResearchButton()

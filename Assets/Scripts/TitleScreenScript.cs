@@ -9,7 +9,14 @@ public class TitleScreenScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        DontDestroyOnLoad(music);
+        GameObject instance = GameObject.Find("Music(Clone)");
+        if (instance == null)
+        {
+            GameObject prefab = Resources.Load("Prefabs/Music") as GameObject;
+            instance = GameObject.Instantiate(prefab, prefab.transform.position, Quaternion.identity);
+            music = instance.GetComponent<AudioSource>();
+            DontDestroyOnLoad(instance);
+        }
 	}
 	
 	// Update is called once per frame

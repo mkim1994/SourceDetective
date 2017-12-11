@@ -34,8 +34,11 @@ public class VariableHandler : MonoBehaviour {
         if(endSceneRan && runEvaluations){
             runEvaluations = false;
             int correctCount = 0;
-            GameObject prefab = Resources.Load("Prefabs/ResearchEvaluation") as GameObject;
-            GameObject evaluation = GameObject.Instantiate(prefab, prefab.transform.position, Quaternion.identity);
+            //GameObject prefab = Resources.Load("Prefabs/ResearchEvaluation") as GameObject;
+            //GameObject evaluation = GameObject.Instantiate(prefab, prefab.transform.position, Quaternion.identity);
+            GameObject.Find("ResearchManager").GetComponent<ResearchManager>().researchEvaluation.SetActive(true);
+            GameObject evaluation = GameObject.Find("ResearchEvaluation");
+            evaluation.SetActive(true);
             Image[] notes = new Image[3];
             Text[] texts = new Text[3];
             notes[0] = evaluation.transform.GetChild(1).GetComponent<Image>();
@@ -88,5 +91,12 @@ public class VariableHandler : MonoBehaviour {
     public void RunEvalutation()
     {
         runEvaluations = true;
+        Debug.Log("setting runEvaluations to true");
+    }
+
+    public void DestroyThis()
+    {
+        Debug.Log("Destroying this");
+        Destroy(this.gameObject);
     }
 }
